@@ -1,0 +1,53 @@
+.ebooks-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    .image-container {
+        width: 100px;
+        margin: auto;
+    }
+
+    .column {
+        flex: 0 0 calc(33.333% - 44px);
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            margin: 10px 0 5px;
+        }
+
+        .download-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #073393;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .download-btn:hover {
+            background-color: #00D8B9;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .ebooks-container {
+        flex-direction: column;
+
+        .column {
+            flex: 1 1 100%;
+        }
+    }
+}

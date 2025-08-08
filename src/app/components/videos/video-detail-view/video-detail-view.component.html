@@ -1,0 +1,10 @@
+<a [routerLink]="['/videos']" class="back-link">← Back to Ebooks</a>
+<div *ngIf="video" class="video-detail">
+    <div class="video-container">
+        <video width="100%" height="auto" [src]="video.videoLink" [poster]="video.image" autoplay muted playsinline
+            controls></video>
+    </div>
+    <h2>{{ video.title }}</h2>
+    <p><strong>Author:</strong> {{ video.author }}</p>
+    <p>{{ video.description }}</p>
+</div>

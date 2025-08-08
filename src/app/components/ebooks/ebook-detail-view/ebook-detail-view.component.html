@@ -1,0 +1,8 @@
+<a [routerLink]="['/ebooks']" class="back-link">← Back to eBooks</a>
+
+<div *ngIf="ebook" class="ebook-detail">
+  <h2>{{ ebook.title }}</h2>
+  <img [src]="ebook.image" alt="{{ ebook.title }}" />
+  <p><strong>Author:</strong> {{ ebook.author }}</p>
+  <p>{{ ebook.description }}</p>
+</div>

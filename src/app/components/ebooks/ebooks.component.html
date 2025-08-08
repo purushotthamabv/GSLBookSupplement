@@ -1,0 +1,11 @@
+<div class="ebooks-container">
+  <div class="column" *ngFor="let ebook of ebooks; let i = index">
+    <div class="image-container">
+      <img [src]="ebook.image" alt="{{ ebook.title }}" />
+    </div>
+    <h3>{{ ebook.title }}</h3>
+    <p><strong>Author:</strong> {{ ebook.author }}</p>
+    <p>{{ ebook.description }}</p>
+    <a [routerLink]="['/ebooks', ebook.title]" class="download-btn">Read more</a>
+  </div>
+</div>

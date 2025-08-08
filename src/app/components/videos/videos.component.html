@@ -1,0 +1,11 @@
+<div class="video-grid">
+  <div class="video-card" *ngFor="let video of videos">
+    <div class="image-container">
+      <img [src]="video.image" alt="{{ video.title }}" />
+    </div>
+    <h3>{{ video.title }}</h3>
+    <p class="speaker">By: {{ video.author }}</p>
+    <p class="description">{{ video.description }}</p>
+    <a [routerLink]="['/videos', video.title]" class="watch-button">Read more</a>
+  </div>
+</div>

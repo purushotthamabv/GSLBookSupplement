@@ -5,3 +5,80 @@
     height: auto;
     margin-bottom: 20px;
 }
+
+.back-link {
+    margin: 20px 0;
+    display: block;
+}
+
+.video-wrap {
+    height: 430px;
+    padding: 10px;
+    position: relative;
+}
+
+.video-player {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.video_bg {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-image: url('https://dummyimage.com/300');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.video_player_inner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.video_player_outer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video_play {
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    background-color: #2b2b2f;
+    opacity: 0.8;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.video-player-frame {
+    height: 100%;
+    width: 100%;
+    border: transparent;
+    border-radius: 40px;
+}
+
+.video_play_bg {
+    background-image: url('/assets/images/play-icon.webp');
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

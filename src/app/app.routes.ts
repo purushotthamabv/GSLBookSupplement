@@ -9,7 +9,7 @@ export const routes: Routes = [
     { path: 'ebooks', component: EbooksComponent },
     { path: 'ebooks/:title', component: EbookDetailViewComponent },
     { path: 'test/booklink/supplement', component: VideosComponent },
-    { path: 'videos/:title', component: VideoDetailViewComponent },
+    { path: 'test/booklink/supplement/:title', component: VideoDetailViewComponent },
     { path: 'landing', component: LandingComponent },
-    { path: '', redirectTo: 'landing', pathMatch: 'full' }
+    { path: '', redirectTo: 'test/booklink/supplement', pathMatch: 'full' }
 ];

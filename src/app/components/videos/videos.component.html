@@ -1,3 +1,10 @@
+<div class="search-result">
+  <h2 class="search-result-title">Videos</h2>
+  <p class="search-result-description">Explore our collection of educational videos.</p>
+  <div class="search-result-count">
+    <span>Chapter: {{ chapter }} and QR Code: {{ qr_code  }}</span>
+  </div>
+</div>
 <div class="video-grid">
   <div class="video-card" *ngFor="let video of filteredVideos">
     <div class="image-container">
@@ -6,6 +13,6 @@
     <h3>{{ video.title }}</h3>
     <p class="speaker">By: {{ video.author }}</p>
     <p class="description">{{ video.description }}</p>
-    <a [routerLink]="['/videos', video.title]" class="watch-button">Read more</a>
+    <a [routerLink]="['/test/booklink/supplement', video.title]" [queryParams]="{ chapter: video.chapter, qr_code: video.qr_code }" class="watch-button">Read more</a>
   </div>
 </div>

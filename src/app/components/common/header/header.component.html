@@ -11,10 +11,9 @@
                 <ul>
                     <li><a routerLink="/landing" routerLinkActive="active">Home</a></li>
                     <li><a routerLink="/ebooks" routerLinkActive="active">Ebooks</a></li>
-                    <li><a routerLink="/videos" routerLinkActive="active">Videos</a></li>
+                    <li><a [routerLink]="['/test/booklink/supplement']" [queryParams]="{ chapter: chapterNumber, qr_code: qrCodeValue }" routerLinkActive="active">Videos</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </div>
-<!-- <router-outlet></router-outlet> -->

@@ -8,7 +8,7 @@ import { VideoDetailViewComponent } from './components/videos/video-detail-view/
 export const routes: Routes = [
     { path: 'ebooks', component: EbooksComponent },
     { path: 'ebooks/:title', component: EbookDetailViewComponent },
-    { path: 'videos', component: VideosComponent },
+    { path: 'test/booklink/supplement', component: VideosComponent },
     { path: 'videos/:title', component: VideoDetailViewComponent },
     { path: 'landing', component: LandingComponent },
     { path: '', redirectTo: 'landing', pathMatch: 'full' }

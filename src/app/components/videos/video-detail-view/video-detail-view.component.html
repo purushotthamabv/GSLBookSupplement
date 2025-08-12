@@ -1,27 +1,15 @@
-<div *ngIf="video" class="video-detail">
-    <div class="video-container">
-        <a 
-  [routerLink]="['/test/booklink/supplement']" 
-  [queryParamsHandling]="'preserve'"
-  class="back-link"
->← Back to Videos</a>
-        <div class="video-wrap position-relative">
-            <div class="border-radius orange"></div>
-            <div class="video-player">
-                <video #videoPlayer width="100%" height="auto" [src]="video.videoLink" muted playsinline controls></video>
-            </div>
-            <div class="video_player_outer" *ngIf="showOverlay">
-                <div class="video_player_inner position-relative">
-                    <div class="video-overlay"></div>
-                    <div class="video_bg"></div>
-                    <div class="video_play" (click)="playVideo(videoPlayer)">
-                        <div class="video_play_bg"></div>
-                    </div>
+<div class="popup-overlay">
+    <div class="popup-content">
+        <button class="popup-close" (click)="closePopup()">✖</button>
+        <div class="video-detail">
+            <div class="video-container">
+                <div class="video-wrap">
+                    <video #videoPlayer width="100%" height="100%" [src]="video.videoLink" muted playsinline autoplay controls></video>
                 </div>
+                <!-- <h2>{{ video.title }}</h2>
+                <p><strong>Author:</strong> {{ video.author }}</p>
+                <p>{{ video.description }}</p> -->
             </div>
         </div>
-        <h2>{{ video.title }}</h2>
-        <p><strong>Author:</strong> {{ video.author }}</p>
-        <p>{{ video.description }}</p>
     </div>
 </div>

@@ -1,0 +1,134 @@
+[
+  {
+    "chapter": 1,
+    "qr_code": 1,
+    "videos": [
+      {
+        "title": "Angular Basics",
+        "description": "Learn the basics of Angular framework. Build simple apps.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+      },
+      {
+        "title": "Mastering RxJS",
+        "description": "Use RxJS effectively in your Angular projects. Handle streams.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+      },
+      {
+        "title": "Docker Essentials",
+        "description": "Learn containerization with Docker. Run apps in containers.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+      }
+    ]
+  },
+  {
+    "chapter": 1,
+    "qr_code": 2,
+    "videos": [
+      {
+        "title": "Modern Frontend Architecture",
+        "description": "Architect frontend apps the modern way. Learn best practices.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+      },
+      {
+        "title": "SCSS Deep Dive",
+        "description": "Advanced styling with SCSS. Create reusable styles.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+      }
+    ]
+  },
+  {
+    "chapter": 1,
+    "qr_code": 3,
+    "videos": [
+      {
+        "title": "Web Optimization Tips",
+        "description": "Speed and performance tuning for modern web apps. Optimize assets.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4"
+      },
+      {
+        "title": "Advanced TypeScript",
+        "description": "Go beyond basics with TypeScript. Write safer code.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4"
+      },
+      {
+        "title": "Kubernetes for Beginners",
+        "description": "Manage containerized apps with Kubernetes. Learn clusters.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "qr_code": 1,
+    "videos": [
+      {
+        "title": "Node.js Fundamentals",
+        "description": "Learn server-side JavaScript with Node.js. Build APIs.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4"
+      },
+      {
+        "title": "MongoDB Basics",
+        "description": "Introduction to NoSQL databases using MongoDB. Data storage.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "description": "Automate deployments using CI/CD pipelines. Fast delivery.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "qr_code": 2,
+    "videos": [
+      {
+        "title": "Express.js Crash Course",
+        "description": "Quickly get up and running with Express.js. Backend server.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+      },
+      {
+        "title": "CI/CD Pipelines",
+        "description": "Automate deployments using CI/CD pipelines. Fast delivery.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "qr_code": 3,
+    "videos": [
+      {
+        "title": "MongoDB Basics",
+        "description": "Introduction to NoSQL databases using MongoDB. Data storage.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4"
+      },
+      {
+        "title": "Kubernetes for Beginners",
+        "description": "Manage containerized apps with Kubernetes. Learn clusters.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4"
+      },
+      {
+        "title": "Express.js Crash Course",
+        "description": "Quickly get up and running with Express.js. Backend server.",
+        "image": "https://dummyimage.com/300",
+        "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4"
+      }
+    ]
+  }
+]

@@ -46,23 +46,6 @@
         margin-bottom: 20px;
     }
 
-    .watch-button {
-        text-decoration: none;
-        color: #fff;
-        background-color: #073393;
-        padding: 8px 12px;
-        border-radius: 4px;
-        font-size: 18px;
-        display: block;
-        transition: background-color 0.3s;
-        cursor: pointer;
-        text-align: center;
-        margin: auto;
-        &:hover {
-            background-color: #00D8B9;
-        }
-    }
-
     .video-player {
         height: 100%;
         width: 100%;

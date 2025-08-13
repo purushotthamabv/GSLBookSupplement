@@ -1,8 +1,22 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, OnInit, QueryList, ViewChildren } from '@angular/core';
-import { ActivatedRoute, RouterModule } from '@angular/router';
+import { ActivatedRoute, Router, RouterModule } from '@angular/router';
 import { VideoDetailViewComponent } from "./video-detail-view/video-detail-view.component";
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+interface Video {
+  title: string;
+  description: string;
+  image: string;
+  videoLink: string;
+  showOverlay?: boolean;
+}
+
+interface VideoGroup {
+  chapter: number;
+  qr_code: number;
+  videos: Video[];
+}
 
 @Component({
   selector: 'app-videos',
@@ -11,19 +25,20 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   templateUrl: './videos.component.html',
   styleUrl: './videos.component.scss'
 })
+
 export class VideosComponent implements OnInit {
-  videos: any[] = [];
+  videos: VideoGroup[] = [];
+  filteredVideos: Video[] = [];
   @ViewChildren('videoPlayer') videoPlayers!: QueryList<ElementRef<HTMLVideoElement>>;
   selectedVideo: any = null;
-  filteredVideos: any[] = [];
   chapter!: number;
   qr_code!: number;
 
-  constructor(private route: ActivatedRoute, private http: HttpClient) { }
+  constructor(private route: ActivatedRoute, private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
     this.getVideosList()
-    this.fetchRouteParams()
+    
   }
 
   getVideosList() {
@@ -31,16 +46,35 @@ export class VideosComponent implements OnInit {
       this.videos = data.map((video: any) => ({
         ...video,
       }));
+      this.fetchRouteParams()
     });
+    console.log(this.videos);
   }
 
   fetchRouteParams() {
     this.route.queryParams.subscribe(params => {
-      this.chapter = +params['chapter'];
-      this.qr_code = +params['qr_code'];
+      const chapterParam = params['chapter'] || 1;
+      const qrCodeParam = params['qr_code'] || 1;
+
+      if (!chapterParam || !qrCodeParam) {
+        this.router.navigate([], {
+          relativeTo: this.route,
+          queryParams: { chapter: 1, qr_code: 1 },
+          queryParamsHandling: 'merge',
+          replaceUrl: true
+        });
+        return;
+      }
+
+      this.chapter = +chapterParam;
+      this.qr_code = +qrCodeParam;
+
       this.getFilteredVideos();
-    });
+      
+    })
   }
+
+  videosLoaded = false;
 
   getFilteredVideos() {
     const group = this.videos.find(
@@ -51,6 +85,9 @@ export class VideosComponent implements OnInit {
       ...video,
       showOverlay: true
     })) : [];
+
+
+    console.log('Filtered Videos:', this.filteredVideos);
   }
 
   playVideo(videoElement: HTMLVideoElement, video: any) {

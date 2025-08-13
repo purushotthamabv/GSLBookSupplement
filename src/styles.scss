@@ -15,7 +15,61 @@ img {
     height: auto;
 }
 
-ul , li {
+ul,
+li {
     margin: 0;
     padding: 0;
+}
+
+
+.search-result {
+    background-color: #00D8B9;
+    color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 15px 15px 0 15px;
+    text-align: center;
+
+    &-title {
+        margin: 0 0 15px 0;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    &-description {
+        margin: 0 0 15px 0;
+        font-size: 18px;
+    }
+
+    &-count {
+
+        font-weight: 600;
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5px 12px;
+        border-radius: 5px;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+
+.watch-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #073393;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 18px;
+    display: block;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+
+    &:hover {
+        background-color: #00D8B9;
+    }
 }

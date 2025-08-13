@@ -1,0 +1,18 @@
+<div class="search-result">
+	<h1 class="search-result-title">glossary</h1>
+	<div class="search-result-description">Explore our collection.</div>
+</div>
+<div class="ebooks-container">
+  <div class="column" *ngFor="let entry of glossaryData; let i = index">
+    <div class="image-container">
+      <img [src]="entry.image" alt="{{ entry.title }}" />
+    </div>
+    <ng-container *ngFor="let item of entry.glossary | slice:0:1">
+      <div class="description-container">
+        <h3>{{ item.title }}</h3>
+        <p>{{ getShortDescription(item.description) }}</p>
+      </div>
+    </ng-container>
+    <a class="watch-button" (click)="readMore(entry)">Read More</a>
+  </div>
+</div>

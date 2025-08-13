@@ -1,0 +1,378 @@
+[
+    {
+        "chapter": 1,
+        "qr_code": "80da279adeb745cab1967f74f8226954/129ef61191304b6da5fda16d7c5deea0",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Artificial Intelligence (AI)",
+                "description": "The ability of machines or computer systems to perform tasks that typically require human intelligence, such as learning, reasoning, and problem-solving."
+            },
+            {
+                "title": "Computer Science",
+                "description": "The study of computers, how they work, and how they can be used to solve problems."
+            },
+            {
+                "title": "Neural Networks",
+                "description": "Computer programs designed to work a bit like the human brain. They help machines recognize patterns and make smart choices."
+            },
+            {
+                "title": "Pattern Recognition",
+                "description": "The ability of AI systems to detect and interpret patterns in data, such as recognizing faces or voices."
+            },
+            {
+                "title": "Data Processing",
+                "description": "The collection, analysis, and interpretation of data to extract useful information."
+            },
+            {
+                "title": "Mimic",
+                "description": "Copy, act like, or explain: \"AI tries to copy how the human brain works.\""
+            },
+            {
+                "title": "Algorithm",
+                "description": "Set of instructions or in other words: \"A recipe of steps the computer follows to solve a problem.\""
+            },
+            {
+                "title": "Data",
+                "description": "Facts and numbers collected to understand something."
+            },
+            {
+                "title": "Recognise",
+                "description": "Notice, identify: E.g.: \"Your phone can notice your face.\""
+            },
+            {
+                "title": "Efficiently",
+                "description": "Quickly and correctly – simplify for clarity."
+            },
+            {
+                "title": "Intelligence (in “Artificial Intelligence”)",
+                "description": "Smart thinking – give examples like solving puzzles or answering questions."
+            },
+            {
+                "title": "Process (in “processing language/images”)",
+                "description": "Work on, handle, or explain: \"It works on the words to understand them.\""
+            },
+            {
+                "title": "Domain (in “Domains of AI”)",
+                "description": "Area or part – \"Different parts of AI that do special jobs.\""
+            },
+            {
+                "title": "Natural Language Processing (NLP)",
+                "description": "Teaching computers to understand what we say and write."
+            },
+            {
+                "title": "Predict/predictions",
+                "description": "Guess based on facts: E.g.: \"When YouTube guesses what video you will like next.\""
+            },
+            {
+                "title": "Patterns",
+                "description": "Repeated things – explain: \"A pattern is something that happens again and again, like your school timetable.\""
+            },
+            {
+                "title": "Voice assistant",
+                "description": "A smart tool that listens and talks back, like Siri or Alexa."
+            },
+            {
+                "title": "Diagnose",
+                "description": "Find out what is wrong – \"Doctors use AI to find out what sickness someone might have.\""
+            },
+            {
+                "title": "Translate",
+                "description": "Change language – \"Turning Hindi into English using Google Translate.\""
+            },
+            {
+                "title": "Autonomous (in vehicles)",
+                "description": "Self-driving – \"A car that drives by itself without a person.\""
+            }
+        ]
+    },
+    {
+        "chapter": 2,
+        "qr_code": "a6d0de5204c340ccae9d0c44904296b2/c6dd7d03c90b40c08041203fdefeb3c3",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Data",
+                "description": "Information like numbers, words, or pictures."
+            },
+            {
+                "title": "Pattern",
+                "description": "Something that repeats or is always similar."
+            },
+            {
+                "title": "Algorithm",
+                "description": "A set of steps that tells a computer what to do."
+            },
+            {
+                "title": "Spam Filter",
+                "description": "A tool that keeps unwanted emails out of your inbox."
+            },
+            {
+                "title": "Virtual Assistant",
+                "description": "A program like Siri or Alexa that helps you by listening to commands."
+            },
+            {
+                "title": "Feedback",
+                "description": "Information about how well something is done and can be used to improve."
+            },
+            {
+                "title": "Training",
+                "description": "Practice that helps AI get better at a task."
+            },
+            {
+                "title": "Neurons",
+                "description": "Special brain cells that help us think and remember."
+            },
+            {
+                "title": "General AI",
+                "description": "An AI that can think like a human in many areas. (It does not exist yet)."
+            },
+            {
+                "title": "Super AI",
+                "description": "A futuristic idea of an AI smarter than all humans."
+            },
+            {
+                "title": "Teachable Machine",
+                "description": "A tool that helps machines learn using examples (Google’s AI tool)."
+            }
+        ]
+    },
+    {
+        "chapter": 3,
+        "qr_code": "acca54318c104faf9d84e5152fbc337e/9c3213d71aec4e6eb4b2b6bfcc17d2ae",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Self-driving cars",
+                "description": "Vehicles that use AI to drive without human control by recognising traffic signals, pedestrians, and obstacles."
+            },
+            {
+                "title": "Traffic Flow Management",
+                "description": "AI-powered systems that adjust traffic lights and routes in real-time to reduce congestion and improve road efficiency."
+            },
+            {
+                "title": "AI Influencers",
+                "description": "Digital characters created using AI that act like human influencers by posting content, interacting with followers, and sharing trends."
+            },
+            {
+                "title": "Digital Celebrities",
+                "description": "AI-generated personalities that appear on social media and gain followers like human influencers."
+            },
+            {
+                "title": "Simulation",
+                "description": "A computer-created experience that feels real, like a 3D volcano eruption."
+            }
+        ]
+    },
+    {
+        "chapter": 4,
+        "qr_code": "d348e6aafbfc4ede960be8ab0d71ced2/d3dcbb090a134e15a20d6f730717f4ae",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Prompt",
+                "description": "A clear question or instruction you give to an AI so that it knows how to help you."
+            },
+            {
+                "title": "Prompting",
+                "description": "The way we ask or give instructions to an AI to get useful and correct answers."
+            },
+            {
+                "title": "Role",
+                "description": "Tells the AI who it should act: for example, a teacher, doctor, or chef."
+            },
+            {
+                "title": "Task",
+                "description": "What you want the AI to do: for example, tell a story, solve a Math problem, or explain a topic."
+            },
+            {
+                "title": "Context",
+                "description": "Extra information that helps the AI understand what you are asking about."
+            },
+            {
+                "title": "Language",
+                "description": "How simple or difficult the words should be, depending on who will read the answer."
+            },
+            {
+                "title": "Word Limit",
+                "description": "How many words the AI should use while answering."
+            },
+            {
+                "title": "Tone",
+                "description": "The style or mood of the answer, it can be funny, friendly, serious, or formal."
+            },
+            {
+                "title": "Specific Prompt",
+                "description": "A prompt that gives clear and detailed instructions so that the AI understands exactly what to do."
+            },
+            {
+                "title": "Vague Prompt",
+                "description": "A prompt which is not clear can confuse AI and give answers you do not want."
+            },
+            {
+                "title": "Accurate Response",
+                "description": "An answer that is correct, helpful, and matches what you asked."
+            }
+        ]
+    },
+    {
+        "chapter": 5,
+        "qr_code": "ef19cf5a57754a018f0685cc5c195b68/9e67b3a104834b739c8739a9d9fbd0d8",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Personalisation",
+                "description": "Giving each person something that matches his or her own needs or likes."
+            },
+            {
+                "title": "Repetitive Tasks",
+                "description": "Working repeatedly on the same thing, like typing or answering the same question."
+            },
+            {
+                "title": "Efficiency",
+                "description": "Doing things quickly, correctly, and with less waste."
+            },
+            {
+                "title": "Dangerous Environments",
+                "description": "Places where it is risky or unsafe for people to work, such as deep oceans or outer space."
+            },
+            {
+                "title": "Ethical Dilemma",
+                "description": "A situation where people must decide what is right or wrong."
+            },
+            {
+                "title": "Data Privacy",
+                "description": "Keeping people’s personal information safe and used only with permission."
+            },
+            {
+                "title": "Bias",
+                "description": "Treating some people better or worse unfairly based on the data."
+            }
+        ]
+    },
+    {
+        "chapter": 6,
+        "qr_code": "1bc37bba7e3742dc90f4bffcf105e60b/8a291e21a94e4134a47d5a97c6b40055",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Ethical",
+                "description": "Related to what is right or wrong in human behaviour."
+            },
+            {
+                "title": "Intrusion",
+                "description": "Entering or using something without permission."
+            },
+            {
+                "title": "Bias",
+                "description": "An unfair preference for or against a group of people."
+            },
+            {
+                "title": "Discrimination",
+                "description": "Mistreating people based on characteristics like gender, race, or age."
+            },
+            {
+                "title": "Transparency",
+                "description": "Being open and clear about how something works."
+            },
+            {
+                "title": "Accountability",
+                "description": "Taking responsibility for actions and decisions."
+            },
+            {
+                "title": "Autonomous",
+                "description": "Able to operate on its own without human control."
+            },
+            {
+                "title": "Displacement",
+                "description": "The process of replacing something, in this case, jobs being replaced by AI."
+            },
+            {
+                "title": "Empathy",
+                "description": "The ability to understand and share someone else's feelings."
+            },
+            {
+                "title": "Digital Divide",
+                "description": "The gap between people who have easy access to technology and those who do not."
+            },
+            {
+                "title": "Inclusive",
+                "description": "Making sure that everyone has equal opportunities and access."
+            }
+        ]
+    },
+    {
+        "chapter": 7,
+        "qr_code": "8f3adb3bf9c144b88814b5ec8a8339fc/609c830476564c5199644ef1ad379c0c",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Automate",
+                "description": "To make a process work by itself without human help."
+            },
+            {
+                "title": "Internet of Things (IoT)",
+                "description": "A system where everyday objects are connected to the internet, allowing them to communicate and perform tasks automatically."
+            },
+            {
+                "title": "Processing",
+                "description": "The action of handling and analyzing data to make decisions or perform tasks."
+            },
+            {
+                "title": "Sensor",
+                "description": "A device that detects and measures changes in the environment, like temperature or motion."
+            },
+            {
+                "title": "Smart Thermostat",
+                "description": "A device that automatically controls the temperature in a room, making adjustments based on the weather or your habits."
+            },
+            {
+                "title": "Transforming",
+                "description": "Changing something completely, usually in a positive way."
+            }
+        ]
+    },
+    {
+        "chapter": 8,
+        "qr_code": "79164164170a4a50ae3facc2e5234eca/aa4e8bb770414ba8a3f5daeaf6b2ba34",
+        "image":"assets/images/book_icon.png",
+        "glossary": [
+            {
+                "title": "Assemble",
+                "description": "To put together different parts to create a complete product."
+            },
+            {
+                "title": "Actuator",
+                "description": "A part that moves the robot, like its muscles."
+            },
+            {
+                "title": "Automation",
+                "description": "Doing tasks without needing a person all the time."
+            },
+            {
+                "title": "Control System",
+                "description": "The part of a robot that processes information and makes decisions, like a brain."
+            },
+            {
+                "title": "Humanoid",
+                "description": "Having a shape or appearance similar to a human."
+            },
+            {
+                "title": "Mechanical",
+                "description": "Related to machines or moving parts."
+            },
+            {
+                "title": "Robotics",
+                "description": "The field of designing, building, and programming robots."
+            },
+            {
+                "title": "Sensors",
+                "description": "Devices that detect changes in the environment, like light, sound, or movement."
+            },
+            {
+                "title": "Welding",
+                "description": "Joining metal parts by melting them together."
+            }
+        ]
+    }
+]

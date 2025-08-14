@@ -1,8 +1,22 @@
-<div *ngIf="this.filteredEntry" class="glossary-details">
-  <img [src]="filteredEntry.image" alt="{{ filteredEntry.title }}" />
-  <ng-container *ngFor="let item of filteredEntry.glossary">
-      <div class="description-container">
-        <span class="title">{{ item.title }} : </span> <span class="description">{{ item.description }}</span>
-      </div>
-    </ng-container>
-</div>
+@if (this.filteredEntry) {
+    <div class="glossary-details">
+      <img [src]="filteredEntry.image" alt="{{ filteredEntry.title }}" />
+      <ng-container *ngFor="let item of filteredEntry.glossary">
+          <div class="description-container">
+            <span class="title">{{ item.title }} : </span> <span class="description">{{ item.description }}</span>
+          </div>
+        </ng-container>
+    </div>
+} @else {
+    <div class="glossary-details">
+        <div class="no-records" style="margin-bottom: 20px;">
+            <span class="title">No Records Found for</span>
+        </div>
+        <div class="no-records-details">
+            <span class="title">Chapter : </span><span class="description"> {{ chapter }}</span>
+            <br/>
+            <br/>
+            <span class="title">QR Code : </span><span class="description">{{ qr_code }}</span>
+        </div>
+    </div>
+}

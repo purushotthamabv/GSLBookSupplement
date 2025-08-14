@@ -25,8 +25,8 @@ export class GlossaryDetailsComponent implements OnInit {
       this.qr_code = params.get('qr_code');
       console.log('Chapter:', this.chapter);
       console.log('QR Code:', this.qr_code);
+      this.loadGlossaryData();
     });
-    this.loadGlossaryData();
   }
 
   loadGlossaryData() {

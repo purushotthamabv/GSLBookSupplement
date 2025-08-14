@@ -20,8 +20,8 @@ export class GlossaryComponent implements OnInit {
   ngOnInit(): void {
     this.loadGlossaryData();
     this.route.paramMap.subscribe(params => {
-      this.chapter = Number(params.get('chapter')) || 1; // fallback to 1
-      this.qr_code = Number(params.get('qr_code')) || 1; // fallback to 1
+      this.chapter = Number(params.get('chapter')) || 1;
+      this.qr_code = Number(params.get('qr_code')) || 1;
     });
   }
 
@@ -30,7 +30,6 @@ export class GlossaryComponent implements OnInit {
       .then(response => response.json())
       .then((data: GlossaryEntry[]) => {
         this.glossaryData = data;
-        // this.fetchRouteParams()
       })
       .catch(error => console.error('Error loading glossary data:', error));
   }
@@ -43,15 +42,6 @@ export class GlossaryComponent implements OnInit {
 
   readMore(item: any) {
     console.log('Read more clicked for item:', item);
-
-    const chapter = item.chapter;
-    const qr_code = item.qr_code;
-
-    // this.router.navigate(
-    //   ['/courses/course-v1', chapter, qr_code],
-    //   { state: { entry: item } }
-    // );
-
 
     this.router.navigate(['/courses/course-v1'], {
     queryParams: { 

@@ -1,9 +1,11 @@
 <div class="search-result">
-	<h1 class="search-result-title">glossary</h1>
-	<div class="search-result-description">Explore our collection.</div>
+  <h1 class="search-result-title">glossary</h1>
+  <div class="search-result-description">Explore our collection.</div>
 </div>
 <div class="ebooks-container">
-  <div class="column" *ngFor="let entry of glossaryData; let i = index">
+  @for (entry of glossaryData; track $index) {
+
+  <div class="column">
     <div class="image-container">
       <img [src]="entry.image" alt="{{ entry.title }}" />
     </div>
@@ -15,4 +17,5 @@
     </ng-container>
     <a class="watch-button" (click)="readMore(entry)">Read More</a>
   </div>
+  }
 </div>

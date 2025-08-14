@@ -1,1 +1,8 @@
-<p>glossary-details works!</p>
+<div *ngIf="this.filteredEntry" class="glossary-details">
+  <img [src]="filteredEntry.image" alt="{{ filteredEntry.title }}" />
+  <ng-container *ngFor="let item of filteredEntry.glossary">
+      <div class="description-container">
+        <span class="title">{{ item.title }} : </span> <span class="description">{{ item.description }}</span>
+      </div>
+    </ng-container>
+</div>

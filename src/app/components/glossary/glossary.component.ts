@@ -1,17 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-
-interface GlossaryItem {
-  title: string;
-  description: string;
-}
-
-interface GlossaryEntry {
-  image: string;
-  title: string;
-  glossary: GlossaryItem[];
-}
+import { GlossaryEntry } from '../../model/glossary.model';
 
 @Component({
   selector: 'app-glossary',

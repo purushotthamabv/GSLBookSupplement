@@ -1,0 +1,32 @@
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.description {
+  font-style: italic;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.description-container {
+  margin-bottom: 12px;
+}
+
+img {
+  max-width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.glossary-details {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}

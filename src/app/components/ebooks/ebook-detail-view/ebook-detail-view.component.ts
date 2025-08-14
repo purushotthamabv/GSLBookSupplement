@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';  // ✅ required for *ngIf, *ngFor
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-ebook-detail-view',

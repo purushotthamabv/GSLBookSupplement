@@ -1,7 +1,7 @@
 [
     {
-        "chapter": 1,
-        "qr_code": "80da279adeb745cab1967f74f8226954/129ef61191304b6da5fda16d7c5deea0",
+        "chapter": "1.2",
+        "qr_code": "4",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -87,8 +87,8 @@
         ]
     },
     {
-        "chapter": 2,
-        "qr_code": "a6d0de5204c340ccae9d0c44904296b2/c6dd7d03c90b40c08041203fdefeb3c3",
+        "chapter": "2.2",
+        "qr_code": "7",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -138,8 +138,8 @@
         ]
     },
     {
-        "chapter": 3,
-        "qr_code": "acca54318c104faf9d84e5152fbc337e/9c3213d71aec4e6eb4b2b6bfcc17d2ae",
+        "chapter": "3.2",
+        "qr_code": "10",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -165,8 +165,8 @@
         ]
     },
     {
-        "chapter": 4,
-        "qr_code": "d348e6aafbfc4ede960be8ab0d71ced2/d3dcbb090a134e15a20d6f730717f4ae",
+        "chapter": "4.2",
+        "qr_code": "13",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -216,8 +216,8 @@
         ]
     },
     {
-        "chapter": 5,
-        "qr_code": "ef19cf5a57754a018f0685cc5c195b68/9e67b3a104834b739c8739a9d9fbd0d8",
+        "chapter": "5.2",
+        "qr_code": "16",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -251,8 +251,8 @@
         ]
     },
     {
-        "chapter": 6,
-        "qr_code": "1bc37bba7e3742dc90f4bffcf105e60b/8a291e21a94e4134a47d5a97c6b40055",
+        "chapter": "6.2",
+        "qr_code": "19",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -302,8 +302,8 @@
         ]
     },
     {
-        "chapter": 7,
-        "qr_code": "8f3adb3bf9c144b88814b5ec8a8339fc/609c830476564c5199644ef1ad379c0c",
+        "chapter": "7.2",
+        "qr_code": "22",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {
@@ -333,8 +333,8 @@
         ]
     },
     {
-        "chapter": 8,
-        "qr_code": "79164164170a4a50ae3facc2e5234eca/aa4e8bb770414ba8a3f5daeaf6b2ba34",
+        "chapter": "8.2",
+        "qr_code": "25",
         "image":"assets/images/book_icon.png",
         "glossary": [
             {

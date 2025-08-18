@@ -1,22 +1,39 @@
-@if (this.filteredEntry) {
-    <div class="glossary-details">
-      <img [src]="filteredEntry.image" alt="{{ filteredEntry.title }}" />
-      <ng-container *ngFor="let item of filteredEntry.glossary">
-          <div class="description-container">
-            <span class="title">{{ item.title }} : </span> <span class="description">{{ item.description }}</span>
-          </div>
-        </ng-container>
-    </div>
-} @else {
+<div class="glossary-details" *ngIf="filteredEntry; else noRecords">
+    @if (filteredEntry.image) {
+        <img [src]="filteredEntry.image" alt="{{ filteredEntry.title }}" />
+    }
+
+    <h2 style="margin: 0;margin-bottom: 30px;">Chapter : {{ filteredEntry.chapter }} : {{filteredEntry.title}}</h2>
+
+    <ng-container *ngFor="let item of filteredEntry.entries">
+        <div class="description-container">
+            @if(item.videoLink) {
+                <div class="video-player">
+                    <video #videoPlayer width="100%" height="100%" [src]="item.videoLink" muted playsinline controls></video>
+                </div>
+                <a class="watch-button" style="margin-bottom: 20px;" (click)="openVideoDetail(item)">Watch Video</a>
+            }
+            <span class="title">{{ item.title || item.term }} : </span>
+            <span class="description">{{ item.description }}</span>
+
+            @if (item.file) {
+                <a class="watch-button" style="margin-top: 20px;" (click)="downloadFile(item.file)">Download File</a>
+            }
+        </div>
+    </ng-container>
+</div>
+
+<ng-template #noRecords>
     <div class="glossary-details">
         <div class="no-records" style="margin-bottom: 20px;">
             <span class="title">No Records Found for</span>
         </div>
         <div class="no-records-details">
-            <span class="title">Chapter : </span><span class="description"> {{ chapter }}</span>
-            <br/>
-            <br/>
+            <span class="title">Chapter : </span><span class="description">{{ chapter }}</span>
+            <br /><br />
             <span class="title">QR Code : </span><span class="description">{{ qr_code }}</span>
         </div>
     </div>
-}
+</ng-template>
+
+<app-video-detail-view *ngIf="selectedVideo" [video]="selectedVideo" (close)="closeVideoDetail()"></app-video-detail-view>
